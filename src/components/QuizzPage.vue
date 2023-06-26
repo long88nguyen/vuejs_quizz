@@ -28,7 +28,9 @@
     </div>
   </div>
   <div>
-    <a-modal v-model:visible="visible" title="Game over" @ok="handleOk" :footer = "none">
+    <a-modal v-model:visible="visible" title="Game over" @ok="handleOk"
+    @cancel="handleEditCancel"
+    :footer="null" >
       <p>Điểm số của bạn là : {{ score }}</p>
       <a-button type="primary" @click="returnHome">Quay lại</a-button>
     </a-modal>
@@ -58,6 +60,11 @@ function checkAnswer() {
 }
 
 function returnHome(){
+  router.push("/")
+}
+
+function handleEditCancel()
+{
   router.push("/")
 }
 
