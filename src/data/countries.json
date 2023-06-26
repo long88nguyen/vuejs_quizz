@@ -1,0 +1,49 @@
+[
+    {
+        "question": "Nước nào rộng lớn nhất thế giới ?",
+        "option":[ 
+            "Liên bang Nga",
+            "Trung Quốc",
+            "Hoa Kỳ",
+            "Canada"
+        ],
+        "answer":0
+    },
+    {
+        "question": "Nước nào có danh số đông nhất trên thế giới ?",
+        "option": [
+            "Liên bang Nga",
+            "Trung Quốc",
+            "Hoa Kỳ",
+            "Canada"
+        ],
+        "answer":1
+    },{
+        "question": "Cầu thủ nào đang thi đấu cho Real Madrid ?",
+        "option": [
+            "Fred",
+            "Haaland",
+            "Mbappe",
+            "Vinicius"
+        ],
+        "answer":3
+    },{
+        "question": "Ai là người đã thống nhất và lập lên đế quốc Mông Cổ ?",
+        "option": [
+           "Hốt Tất Liệt",
+           "Thiết Mộc Chân",
+           "Oa Khoát Đài",
+           "Truật Xích"
+        ],
+        "answer":1
+    },{
+        "question": "Tỉnh thành nào nằm ở Cực nam của Việt Nam ?",
+        "option": [
+            "Vĩnh Phúc",
+            "Hà Giang",
+            "Quảng Ninh",
+            "Cà Mau"
+        ],
+        "answer":3
+    }
+]
